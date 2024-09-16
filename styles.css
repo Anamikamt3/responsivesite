@@ -269,13 +269,15 @@ ul li a:hover {
     width: 100%;
   }
   .simage{
-    width: 100%;
-    height: auto;
+    
+      width: 40%;
+      display: flex;
+    flex-flow: row;
+    flex: 1 100%;
+  
+    
   }
-  .jqimg {
-    grid-area: 1/1/2/2;
-    justify-content: center;
-  }
+  
   
 }
 .aboutme{
@@ -376,6 +378,7 @@ ul li a:hover {
     font-size: 20px;
     padding: 12px 40px 13px 40px;
     text-decoration: none;
+    
   }
   
   .btn4:hover {
@@ -405,6 +408,7 @@ ul li a:hover {
     text-decoration: none;
     
     margin-left: 30px;
+   
   }
   
   .btn5:hover {
@@ -416,7 +420,24 @@ ul li a:hover {
     background-image: linear-gradient(to bottom, #94d1f7, #90caf0);
     text-decoration: none;
   }
-
+  
+    .btnn{
+      display: flex;
+      flex-direction: column;
+      
+    }
+      
+    @media screen(width<750px) {
+      .btnn{
+        margin:auto;
+       
+        width:auto;
+      }
+      
+    }
+    
+  
+  
   .services{
     width: 100%;
     height: auto;
